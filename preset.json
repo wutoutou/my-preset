@@ -1,0 +1,17 @@
+{
+  "useConfigFiles": true,
+  "plugins": {
+    "@vue/cli-plugin-babel": {
+      "prompts": true
+    },
+    "@vue/cli-plugin-router": {
+      "historyMode": true
+    },
+    "@vue/cli-plugin-eslint": {
+      "config": "prettier",
+      "lintOn": ["save"]
+    }
+  },
+  "vueVersion": "2",
+  "cssPreprocessor": "dart-sass"
+}
